@@ -1,0 +1,48 @@
+/*Blocks and text alignment inside divs*/
+.text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header {
+  width: 100%;
+  height: 125px;
+  background: #6df94e;
+}
+
+.left {
+  width: 25%;
+  height: 500px;
+  background: #8b8bef;
+}
+
+.right {
+  width: 75%;
+  height: 500px;
+  background: #a2e3f9;
+}
+
+.footer {
+  width: 100%;
+  height: 125px;
+  background: #fdf295;
+}
+
+/*float*/
+.float-container>.left {
+  float: left;
+}
+
+.float-container>.right {
+  float: right;
+}
+
+.float-container>.footer {
+  clear: both;
+}
+
+/*flex*/
+.flex-container>.container {
+  display: flex;
+}
