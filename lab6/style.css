@@ -1,0 +1,37 @@
+.header {
+  text-align: center;
+}
+
+#download {
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  background-color: aqua;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+#download:hover {
+  background-color: aquamarine;
+}
+
+#info {
+  font-size: 30px;
+  margin: 10px;
+}
+
+#users {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.user {
+  display: flex;
+  flex-direction: column;
+  background-color: #f0f0f0;
+  border-radius: 4px;
+  margin: 4px;
+  width: calc(20% - 8px);
+  min-width: 300px;
+}
